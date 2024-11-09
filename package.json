@@ -1,0 +1,16 @@
+{
+  "name": "psychometrics-wiki",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev:client": "yarn workspace client start",
+    "dev:server": "yarn workspace server dev",
+    "dev": "concurrently \"yarn dev:client\" \"yarn dev:server\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
