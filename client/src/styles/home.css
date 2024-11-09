@@ -1,0 +1,82 @@
+/* src/pages/Home.css */
+.homepage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #2a2a2a;
+  }
+  
+  .site-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #3366cc;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #3366cc;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #285a9f;
+  }
+  
+  .intro-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .featured-topics {
+    margin-top: 30px;
+  }
+  
+  .featured-topics h2 {
+    font-size: 1.5em;
+    color: #3366cc;
+    margin-bottom: 15px;
+  }
+  
+  .featured-topics ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .featured-topics li {
+    margin: 8px 0;
+  }
+  
+  .featured-topics a {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  
+  .featured-topics a:hover {
+    text-decoration: underline;
+  }
+  
